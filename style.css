@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+div div {
+	width: 19.8%;
+	height: 100px;
+	background-color: green;
+	display: inline-block;
+}
+
+.nav {
+/* 	background-color: green; */
+/* 	display: none; */
+	animation-name: test;
+	animation-delay: 7s;
+	animation-duration: 1s;
+	  animation-iteration-count: infinite;
+}
+
+@keyframes test {
+	0%{
+			background-color: green;
+	}
+	100% {
+			background-color: green;
+	}
+}
+p{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.bg {
+	background-image: url("logo.png");
+	width: 100%;
+	height: 60vh;
+	background-size: 100% 100%;
+}
